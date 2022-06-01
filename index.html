@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Number Guessing Game</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Try guessing the number between 0 and 100</h1>
+        <p id="text__guesses">Guesses:</p>
+        <p id="display__answer"></p>
+        <div class="submit__group">
+            <label for="submit__input" id="submit__label">Your guess:</label>
+            <input type="text" id="submit__input">
+            <button id="submit__button" class="hover__effect" onclick="verifyNumber()">Submit</button>
+            <div class="totalRange">
+                <span class="tooltiptext">0 to 100</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
